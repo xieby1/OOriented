@@ -4,6 +4,7 @@ Ownership:  Xie Benyi
 Date:       Sep 2017
 
 --------------
-# RedPackage
+# Assignment 1
+name: RedPackage
 Date: Sep.23
 --------------

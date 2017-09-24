@@ -69,6 +69,9 @@ public class Painter extends JFrame
         int ww = (Toolkit.getDefaultToolkit().getScreenSize().width - w)/2;
         int hh = (Toolkit.getDefaultToolkit().getScreenSize().height - h)/2;
         setLocation(ww, hh);
+        System.out.println("想在9.29请一次假，回家看一年没有看到的父亲。去年过年我没回家。\n" +
+                "父亲在长期外地，10.2又要去外地工作。望萌萌的主讲和萌萌的助教准假。\n" +
+                "一定会在火车上把那节课的内容补上。");
     }
 }
 

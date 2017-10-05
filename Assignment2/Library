@@ -1,0 +1,35 @@
+1）
+|-------------------------|
+|class Student            |
+|-------------------------|
+|-String ID               |
+|-Book[] borrowed_books   |
+|-------------------------|
+|Student(String ID)       |
+|+String getID()          |
+|+return_book(Book book)  |
+|+borrow_book(Book book)  |
+|-------------------------|
+
+2)
+|-------------------------|
+|class Book               |
+|-------------------------|
+|-String name             |
+|-Boolean is_borrowed     |
+|-------------------------|
+|Book(String name)        |
+|+void borrow()           |
+|+void return()           |
+|-------------------------|
+
+3)
+|-------------------------|
+|class Manager            |
+|-------------------------|
+|-String name             |
+|-------------------------|
+|Manager(String name)     |
+|+void addbook()          |
+|+void addstudent()       |
+|-------------------------|

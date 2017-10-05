@@ -1,0 +1,42 @@
+1)
+|-------------------------|
+|class Factory            |
+|-------------------------|
+|-String name             |
+|-Staff staff             |
+|-Part parts              |
+|-------------------------|
+|Factory(String name,     |
+|     ...Staff  staff,    |
+|     ...Part   parts)    |
+|+Part assemble(Part p)   |
+|+void procurement(Part p)|
+|+void recruit(Staff s)   |
+|-------------------------|
+
+2)
+|-------------------------|
+|class Owner              |
+|-------------------------|
+|-String ID               |
+|-Car[] owned_cars        |
+|-------------------------|
+|Owner(String ID)         |
+|+void buy(Car car)       |
+|+void drive(Car car)     |
+|+void sell(Car car)      |
+|-------------------------|
+
+3)
+|-------------------------|
+|class VMO                |     \\Vihicle Management Office
+|-------------------------|
+|-List car_list           |
+|-List driver_list        |
+|-------------------------|
+|VMO(List c, List d)      |
+|+void add_car(Car car)   |
+|+void del_car(Car car)   |
+|+void add_driver(Driver d)|
+|+void del_driver(Driver d)|
+|-------------------------|
